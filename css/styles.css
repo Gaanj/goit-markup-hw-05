@@ -519,6 +519,7 @@ h2 {
   column-gap: 24px;
 }
 .form-input {
+  margin: 0;
   display: flex;
   background-color: #2e2f42;
   color: #fff;
@@ -534,8 +535,9 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
+  padding: 0;
 }
 .form-btn {
   cursor: pointer;
