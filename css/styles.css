@@ -516,7 +516,7 @@ h2 {
 }
 .form-div {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .form-input {
   margin: 0;
