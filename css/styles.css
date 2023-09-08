@@ -626,6 +626,8 @@ h2 {
 .form-close-btn:focus {
   background-color: #404bbf;
   fill: #fff;
+  border: none; 
+  
 }
 .modal-p {
   color: #2e2f42;
