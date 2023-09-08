@@ -513,7 +513,6 @@ h2 {
   gap: 12px;
   padding: 8px;
   max-width: 300px;
-  row-gap: 16px;
 }
 .form-div {
   display: flex;
@@ -526,16 +525,17 @@ h2 {
   border-radius: 4px;
   padding: 8px 16px;
 }
-.form-label {
-  color: #fff;
+.form-p {
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02px;
+  margin-bottom: 16px;
 }
 .form-btn {
   cursor: pointer;
