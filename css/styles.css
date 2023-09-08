@@ -733,7 +733,7 @@ h2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
 }
 .checkbox {
@@ -747,10 +747,13 @@ h2 {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 1px solid #8e8f99;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check-input {
   position: absolute;
@@ -767,6 +770,7 @@ h2 {
 .check-input:checked + .privacy-p > .check-style {
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 .modal-submit {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
