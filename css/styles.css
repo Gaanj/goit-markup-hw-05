@@ -565,10 +565,12 @@ h2 {
   font-weight: 500;
   letter-spacing: 0.64px;
   border: none;
+  justify-content: center;
 }
 .instagf{
   fill: #f4f4fd;
   line-height: 0; 
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
