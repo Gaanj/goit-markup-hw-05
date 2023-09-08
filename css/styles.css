@@ -712,22 +712,7 @@ h2 {
   transform: translatey(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-number-ico {
-  fill: #2e2f42;
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translatey(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-mail-ico {
-  fill: #2e2f42;
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translatey(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .privacy-link {
   color: #4d5ae5;
   font-size: 12px;
