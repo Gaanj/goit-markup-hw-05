@@ -505,6 +505,8 @@ h2 {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-container {
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -730,7 +732,7 @@ h2 {
   border: 1px solid #8e8f99;
   cursor: pointer;
   fill: transparent;
-  margin-right: 8px ;
+  margin-right: 8px;
 }
 .check-input {
   position: absolute;
