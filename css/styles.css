@@ -545,7 +545,6 @@ h2 {
   cursor: pointer;
   align-items: center;
   display: flex;
-  column-gap: 16px;
   padding: 8px 24px;
   border-radius: 4px;
   background: #4d5ae5;
@@ -561,7 +560,7 @@ h2 {
 .instagf {
   fill: #f4f4fd;
   line-height: 0;
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
