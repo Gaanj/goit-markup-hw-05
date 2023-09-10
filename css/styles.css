@@ -446,7 +446,6 @@ h2 {
 }
 .footer-container {
   display: flex;
-  gap: 16px;
   align-items: baseline;
 }
 .logo-footer {
@@ -505,12 +504,9 @@ h2 {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-container {
-}
 .form {
   display: flex;
   flex-direction: column;
-  padding: 8px;
 }
 .form-div {
   display: flex;
@@ -565,7 +561,7 @@ h2 {
 .instagf {
   fill: #f4f4fd;
   line-height: 0;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 .backdrop {
   position: fixed;
@@ -667,13 +663,16 @@ h2 {
   width: 360px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form-input:hover,
 .modal-form-input:focus + .form-number-ico,
-.modal-form-input:focus + .form-mail-ico {
+.modal-form-input:hover,
+.modal-form-input:focus + .form-mail-ico,
+.modal-form-input:hover,
+.modal-form-input:focus + .form-name-ico {
   fill: #4d5ae5;
 }
 .input-image-container {
   position: relative;
-  margin-bottom: 8px;
 }
 .comment-container {
   margin-bottom: 16px;
@@ -687,7 +686,6 @@ h2 {
   outline: transparent;
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-bottom: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
@@ -711,7 +709,6 @@ h2 {
   border: 1px solid #4d5ae5;
 }
 .form-name-ico {
-  fill: #4d5ae5;
   position: absolute;
   top: 50%;
   left: 16px;
