@@ -171,7 +171,7 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="button-l">Order Service</button>
+          <button type="button" class="button-l" data-modal-open >Order Service</button>
         </div>
       </section>
       <section class="section-features">
@@ -582,9 +582,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="form-close-btn" type="button">
+        <button class="form-close-btn" type="button" data-modal-close>
           <svg
             class="form-close-ico"
             width="8"
@@ -681,5 +681,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
